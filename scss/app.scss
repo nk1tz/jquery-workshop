@@ -1,0 +1,30 @@
+html {
+    box-sizing:border-box;
+}
+*, *::before, *::after{
+    box-sizing:inherit;
+}
+
+div.announcement {
+    position:relative;
+    border: 2px solid tomato;
+    background: rgba(lightsteelblue, 0.75);
+    padding: 1em;
+    line-height:1;
+}
+
+.xButton {
+    position:absolute;
+    color:white;
+    top:10px;
+    right:10px;
+    border:none;
+    background:tomato;
+    font-style:bold;
+}
+
+.seeButton {
+    color:white;
+    background:tomato ;
+    border:1px solid rgba(royalblue,0.5);
+}
